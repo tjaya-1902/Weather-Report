@@ -1,4 +1,6 @@
-A executable data is avaiable in the folder "dist"
+This program generates weekly and daily weather report along with weather alerts from a chosen city.
+Weather data is gathered from the Visual Crossing API.
+
 When starting the program, a GUI will be opened.
 
 This GUI has the following features:
