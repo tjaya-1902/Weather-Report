@@ -23,3 +23,7 @@ The program outputs have the following feature:
 - In HTML format the displayed plots are interactive plots
 - Email format creates the same HTML file, converts it to PDF format and sends it to a recipient email
 - Sending the weather predicition using email will take a couple seconds
+
+
+GUI
+![Weather Report](images/GUI.png)
