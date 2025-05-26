@@ -29,4 +29,8 @@ GUI
 ![Weather-Report](images/GUI.png)
 
 Weekly Report
-![Weather-Report](images/Weekly Report.png)
+![Weather-Report](images/WeeklyReport.png)
+![Weather-Report](images/WeeklyPlot.png)
+
+Daily Report
+![Weather-Report](images/DailyReport.png)
