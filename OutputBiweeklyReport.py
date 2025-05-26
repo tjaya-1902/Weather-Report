@@ -22,15 +22,7 @@ class ProcessedBiweeklyReport:
         self.col_names = col_names
         self.selected_index = selected_index
 
-        # Define plot items with label, index in data, color, and whether to plot on secondary y-axis
-        self.plot_items = [
-            ("Max Temperature", 0, 'red', False),
-            ("Min Temperature", 1, 'blue', False),
-            ("Wind Speed", 2, 'green', False),
-            ("Precip. Probability", 3, 'yellow', True),
-            ("Humidity", 4, 'black', True),
-        ]
-
+        
     def output_biweekly_progression_to_console(self):
         """Print weather data table to console."""
         title = f"Weather Prediction in {self.city_name} between {self.data[0][0]} and {self.data[-1][0]}"
@@ -87,6 +79,15 @@ class ProcessedBiweeklyReport:
         # Initialize Plotly figure with secondary y-axis
         if graph_format == "Plotly":
             fig = make_subplots(specs=[[{"secondary_y": True}]])
+
+        # Define plot items with label, index in data, color, and whether to plot on secondary y-axis
+        self.plot_items = [
+            ("Max Temperature", 0, 'red', False),
+            ("Min Temperature", 1, 'blue', False),
+            ("Wind Speed", 2, 'green', False),
+            ("Precip. Probability", 3, 'yellow', True),
+            ("Humidity", 4, 'black', True),
+        ]
 
         dates = GetColumnValues(0, self.data)
         col_num = 1
