@@ -1,7 +1,8 @@
 This program generates weekly and daily weather report along with weather alerts from a chosen city.
 Weather data is gathered from the Visual Crossing API.
 
-When starting the program, a GUI will be opened.
+You can start the program by directly running Main.py from your IDE.
+Alternatively, you can create an executeable file to run the program by executing the following command on your terminal: pyinstaller --onefile Main.py
 
 This GUI has the following features:
 - You need to enter a city name and recipient email address
