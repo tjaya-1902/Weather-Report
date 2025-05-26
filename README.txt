@@ -26,4 +26,4 @@ The program outputs have the following feature:
 
 
 GUI
-![Weather Report](images/GUI.png)
+![Weather-Report](images/GUI.png)
